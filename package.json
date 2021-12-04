@@ -1,0 +1,55 @@
+{
+  "name": "resumemooks",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/react": "^12.1.2",
+    "@types/jest": "^27.0.2",
+    "@types/react": "^17.0.35",
+    "@types/react-dom": "^17.0.11",
+    "@types/redux-logger": "^3.0.9",
+    "classnames": "^2.3.1",
+    "cra-template-typescript": "1.1.2",
+    "cross-env": "^7.0.3",
+    "electron": "^16.0.0",
+    "eslint": "^7.11.0",
+    "node-sass": "5.0.0",
+    "prettier": "^2.4.1",
+    "rc-redux-model": "^1.1.10",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-redux": "^7.2.6",
+    "react-router-dom": "^6.0.2",
+    "react-scripts": "4.0.3",
+    "redux": "^4.1.2",
+    "redux-logger": "^3.0.6",
+    "typescript": "^4.4.4",
+    "web-vitals": "^2.1.2"
+  },
+  "scripts": {
+    "start": "cross-env REACT_APP_ENV=development react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "start:main": "cross-env REACT_APP_ENV=development electron ./main/electron.ts"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {}
+}
